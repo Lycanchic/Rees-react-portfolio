@@ -1,14 +1,17 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Navbar from './navbar';
 import '../../assets/css/home.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+//import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+//import { Link } from 'react-router-dom'; 
+import Footer from './footer'
 
 function Home() {
   return (
     <div className="home">
-            <Navbar />
+      <Navbar />
       <div className="content">
         <h1>Welcome to my website!</h1>
         <p>
@@ -19,12 +22,11 @@ function Home() {
           ultrices posuere cubilia curae; Fusce bibendum erat non nisl rutrum,
           a elementum mauris aliquam.
         </p>
+        <Footer />
       </div>
-      <footer className="footer">
-        <p>&copy; 2023 My Website. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 }
+
 
 export default Home;

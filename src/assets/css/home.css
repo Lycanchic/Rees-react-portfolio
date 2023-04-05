@@ -251,3 +251,36 @@
   }
 }
 
+.footer {
+  /*background-color: #000; /* Set background color for the footer */
+/* Add padding for spacing */
+  padding: 1rem; 
+   /* Evenly spaced icons */
+  display: flex;
+   /* Center the icons horizontally */
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  /* Spacing out the icons evenly */
+  justify-content: space-around;
+  width: 100%; 
+  margin-top: 40px; 
+}
+
+.footer__icons {
+  display: flex; 
+   /* Spacing out the icons evenly */
+  justify-content: space-around;
+  /* Center the icons vertically */
+  align-items: center; 
+  width: 100%; 
+}
+
+.footer__icons a {
+   /* Set the color of the icons to white */
+  color: #fff;
+  /* Set the font size of the icons */
+  font-size: 24px; 
+   /* Add margin between the icons */
+  margin: 0 1rem;
+}
