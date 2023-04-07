@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item img {
+    width: 500px;
+    height: 300px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .ux-ui-image:hover {
+    transform: scale(2);
+  }
+
+  .fig-size {
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .footer {
+    /*background-color: #000; /* Set background color for the footer */
+  /* Add padding for spacing */
+    padding: 1rem; 
+     /* Evenly spaced icons */
+    display: flex;
+     /* Center the icons horizontally */
+    justify-content: center;
+  }
+  
+  .footer__icons {
+    display: flex; 
+     /* Spacing out the icons evenly */
+    justify-content: space-around;
+    /* Center the icons vertically */
+    align-items: center; 
+    width: 100%; 
+  }
+  
+  .footer__icons a {
+     /* Set the color of the icons to white */
+    color: #fff;
+    /* Set the font size of the icons */
+    font-size: 24px; 
+     /* Add margin between the icons */
+    margin: 0 1rem;
+  }
